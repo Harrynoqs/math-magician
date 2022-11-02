@@ -5,7 +5,7 @@
 ## Math magicians: setup
 
 > Description the project.
-This is the first project of the Math Magicians application. I set up the environment and tools needed to develop a React application. 
+In this project, I continued with the development of the Math Magicians app. I developed a React component that hold the core functionality: a calculator.
 
 ## Built With
 
