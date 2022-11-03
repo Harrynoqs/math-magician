@@ -2,11 +2,11 @@
 
 # Project Name
 
-## Math magicians: setup
+## Math Magicians: refactor with hooks
 
 > Description the project.
 
-In this project, I added the logic needed to make the Calculator component I developed in the previous project actually work.
+In this project I refactored the Calculator component I developed in the past projects. Instead of using class based components, I useed hooks.
 
 ## Built With
 
