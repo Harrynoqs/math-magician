@@ -5,7 +5,8 @@
 ## Math magicians: setup
 
 > Description the project.
-In this project, I continued with the development of the Math Magicians app. I developed a React component that hold the core functionality: a calculator.
+
+In this project, I added the logic needed to make the Calculator component I developed in the previous project actually work.
 
 ## Built With
 
