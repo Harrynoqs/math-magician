@@ -1,25 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.buttonKey-2 {
-  grid-column: 1 / span 2;
+  background-color: lightgrey;
+  font-family: 'inter', sans-serif;
 }
 
 .calc-container {
   display: grid;
   grid-template: auto auto auto auto auto auto / auto auto auto auto;
-  border: 2px solid #d2d2d2;
+  border: 1px solid #d2d2d2;
   width: fit-content;
+  box-shadow: 1px 1px 10px 1px #d2d2d2;
 }
 
 .result-preview {
@@ -42,10 +33,81 @@ body {
   cursor: pointer;
 }
 
+.buttonKey-2 {
+  grid-column: 1 / span 2;
+}
+
 .buttonKey {
   padding: 20px 30px;
 }
 
 .colored {
   background-color: orange;
+}
+
+.buttonKey:hover,
+.buttonKey-2:hover {
+  background-color: #c6c1c1;
+}
+
+h1.header {
+  font-size: 3rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+header.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #0f0f0f;
+}
+
+nav.navlink {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav.navlink a {
+  padding: 1rem 1.5rem;
+  margin: 4px 5px;
+  text-decoration: none;
+  color: white;
+}
+
+nav.navlink a:hover {
+  color: aqua;
+}
+
+nav.navlink a:active {
+  color: beige;
+}
+
+div.wrapper--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5% 5%;
+}
+
+p.calculator--paragraph {
+  font-size: 2rem;
+}
+
+h2.title {
+  margin: 2.5rem 0;
+  font-size: 2.5rem;
+  color: #2c2c2c;
+}
+
+p.text {
+  line-height: 1.4;
+  color: #252121;
+}
+
+p.quote {
+  margin-top: 10%;
+  font-size: 1.5rem;
+  color: #252121;
 }
