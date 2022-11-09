@@ -2,11 +2,11 @@
 
 # Project Name
 
-## Math Magicians: refactor with hooks
+## Math magicians: full website
 
 > Description the project.
 
-In this project I refactored the Calculator component I developed in the past projects. Instead of using class based components, I useed hooks.
+In this project, I created a full website for the Math magicians app, consisting of several pages and using the components I already created.
 
 ## Built With
 
