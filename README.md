@@ -21,7 +21,7 @@ In this project, I created a full website for the Math magicians app, consisting
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://admirable-tarsier-51289b.netlify.app/)
 
 
 ## Getting Started
